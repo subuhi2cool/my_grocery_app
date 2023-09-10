@@ -1,0 +1,13 @@
+part of 'custom_bottom_navigation_bar_bloc.dart';
+
+@immutable
+
+ class CustomBottomNavigationBarState {}
+
+class CustomBottomNavigationBarNavigateToHomeState extends CustomBottomNavigationBarState {}
+
+class CustomBottomNavigationBarNavigateToCategoriesState extends CustomBottomNavigationBarState {}
+
+class CustomBottomNavigationBarNavigateToCartState extends CustomBottomNavigationBarState {}
+
+class CustomBottomNavigationBarNavigateToOrdersState extends CustomBottomNavigationBarState {}

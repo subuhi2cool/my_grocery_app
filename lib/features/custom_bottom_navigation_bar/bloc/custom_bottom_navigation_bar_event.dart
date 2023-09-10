@@ -1,0 +1,12 @@
+part of 'custom_bottom_navigation_bar_bloc.dart';
+
+@immutable
+abstract class CustomBottomNavigationBarEvent {}
+
+class HomeCustomBottomNavigationBarEvent extends CustomBottomNavigationBarEvent{}
+
+class CategoriesCustomBottomNavigationBarEvent extends CustomBottomNavigationBarEvent{}
+
+class CartCustomBottomNavigationBarEvent extends CustomBottomNavigationBarEvent{}
+
+class OrdersCustomBottomNavigationBarEvent extends CustomBottomNavigationBarEvent{}
