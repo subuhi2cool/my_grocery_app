@@ -27,6 +27,10 @@ apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
+    lintOptions {
+        warning 'unchecked'
+    }
+
     namespace "com.example.my_grocery_app"
     compileSdkVersion flutter.compileSdkVersion
     ndkVersion flutter.ndkVersion
